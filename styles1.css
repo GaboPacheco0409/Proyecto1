@@ -1,0 +1,61 @@
+html{ 
+    background-color: whitesmoke; 
+    color: rgb(0, 89, 255); 
+    align-items: center; 
+    border: 3px; 
+    padding: 50px 300px 300px; 
+} 
+h1{ 
+background-color: rgb(245, 190, 119); 
+} 
+input[type="text"]{ 
+    background-color: white; 
+    padding: auto auto auto; 
+    border-radius: 1px; 
+} 
+input[type="radio"]{ 
+    min-block-size: 20px; 
+    background-color: white; 
+    border-radius: 1px; 
+} 
+.llenado{ 
+    align-self: center; 
+    align-items: center; 
+} 
+ 
+.logo{ 
+    width: 50px; 
+    height: 10px; 
+    float: left; 
+}ç 
+.flex-container{ 
+    display: flex; 
+    align-items: stretch ; 
+} 
+.flex-container > div { 
+    margin: auto; 
+    text-align: left; 
+    line-height: auto ; 
+    font-size: auto; 
+    } 
+.grid-container { 
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    padding: 10px; 
+   } 
+.grid-item { 
+    background-color: rgba(245, 238, 220, 0.8); 
+    border: 1px solid rgba(0, 0, 0, 0.8); 
+    padding: 20px; 
+    text-align: center;
+    
+
+  } 
+.item{ 
+    background-color: rgb(247, 246, 245); 
+}
+.grid-item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgba(245, 238, 220, 0.8); 
+}

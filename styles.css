@@ -1,0 +1,106 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 0px;
+}
+button{
+    background-color: rgb(228, 155, 10);
+    margin: 5px 10px;
+    padding: 5px 30px;
+    color: aliceblue;
+    border: 2px solid black;
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+}
+header{
+    color: rgb(62, 65, 241);    
+}
+.item2{
+    background-image: url(fondo1.png);
+    width: 1150px;
+    height: 630px;
+    color: white;
+    padding: 50px 200px ;
+    font-size: 20px;
+}
+.grid-container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    text-align: center;
+    width: 1500px;
+    height: 100px;
+}
+.grid-container3{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: auto;
+    margin: 10px 150px 50px;
+    column-gap: auto;
+    color: aliceblue;
+}
+.subsubitem2{
+    grid-column-start:2 ;
+    grid-column-end: 4;
+}
+footer{
+    background-color: rgb(82, 82, 82);
+    margin: 0%;
+}
+body{
+    margin: 0;
+}
+h1{
+    font-size: 55px;
+}
+.grid-container4{
+    display: grid;
+    grid-template-columns: 460px 700px;
+    margin: 0px 210px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    column-gap: 20px;
+    padding: 30px 0 0;
+    text-align: end;
+    justify-content: end;
+}
+.item3{
+    background-image: url(fondo2.png);
+    width: 1150px;
+    height: 630px;
+    color: white;
+    padding: 50px 200px ;
+    font-size: 20px;
+}
+.item4{
+    background-image: url(fondo3.png);
+    width: 1150px;
+    height: 630px;
+    color: white;
+    padding: 50px 200px ;
+    font-size: 20px;
+}
+.item6{
+    background-color: rgb(255, 136, 0);
+    text-align: center;
+}
+.item5{
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+}
+html{
+    width: min-content;
+    height: min-content;
+}
+.subitem{
+    border: 2px solid black;
+}
+.iconos{
+    width:30px;
+    height:30px;
+    display: grid;
+    grid-template-columns: autO auto auto;
+    column-gap: 20px;
+}
