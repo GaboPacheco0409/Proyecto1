@@ -59,3 +59,11 @@ input[type="radio"]{
     grid-column-end: 4;
     background-color: rgba(245, 238, 220, 0.8); 
 }
+input[type="submit"]{
+    background-color: rgb(53, 242, 53);
+    
+}
+input[type="reset"]{
+    background-color: aliceblue;
+
+}
