@@ -1,0 +1,178 @@
+html{ 
+    background-color: whitesmoke; 
+    color: rgb(0, 89, 255); 
+    align-items: center; 
+    border: 3px; 
+    padding: 0;
+    margin: 0;
+} 
+h1{ 
+background-color: rgb(245, 190, 119); 
+} 
+input[type="text"]{ 
+    background-color: white; 
+    border-radius: 1px; 
+    width: 300px;
+    margin: auto auto auto;
+} 
+input[type="radio"]{ 
+    min-block-size: 20px; 
+    background-color: white; 
+    border-radius: 1px; 
+} 
+.llenado{ 
+    align-self: center; 
+    align-items: center; 
+} 
+ 
+.logo{ 
+    width: 50px; 
+    height: 10px; 
+    float: left; 
+}
+.flex-container{ 
+    display: flex; 
+    align-items: stretch ; 
+} 
+.flex-container > div { 
+    margin: auto; 
+    text-align: left; 
+    line-height: auto ; 
+    font-size: auto; 
+    } 
+.grid-container { 
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    padding: 10px; 
+   } 
+.grid-item { 
+    background-color: rgba(245, 238, 220, 0.8); 
+    border: 1px solid rgba(0, 0, 0, 0.8); 
+    padding: 20px; 
+    text-align: center;
+    font-size: 20px;
+    
+
+  } 
+.item{ 
+    background-color: rgb(247, 246, 245); 
+}
+.grid-item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: rgba(245, 238, 220, 0.8); 
+}
+input[type="submit"]{
+    background-color: rgb(53, 242, 53);
+}
+input[type="reset"]{
+    background-color: aliceblue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #ff8a15fb;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 60px 20px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+body {
+    margin: 0;
+    padding: 0;
+}
+label{
+    font-size: 20px;
+    color: black;
+}
+.menu{
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu .navbar ul li{
+    position: relative;
+    float: right;
+}
+.menu .navbar ul li a{
+    font-size: 12px;
+    padding: 20px;
+    color: #DEDEDE;
+    display: block;
+    font-weight: bold;
+    float: right;
+}
+.menu .navbar ul li a:hover{
+    color:white;
+}
+#menu{
+    display: none;
+}
+.menu-icono{
+    width: 25px;
+}
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+@media(max-width: 991px){
+    .content{
+        min-height: 70px;
+    }
+    .menu{
+        top: 0;
+        padding: 20px;
+    }
+    .menu label{
+        display: initial;
+    }
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: orange;
+        display: none;
+        width: 100%;
+    }
+    .menu .navbar .ul .li{
+        width: 100%;
+    }
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    .item1{
+        padding: 0 100px;
+    }
+    }
