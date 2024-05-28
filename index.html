@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/estilos/styles.css">
+</head>
+<body>
+    <div class="menu container">
+        <a class="titulos"><h1>RECETAS DE COCINA</h1></a>
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+            <img src="assets/imagenes/menu.png" width="40px" height="40px" class="menu-icono" alt="">
+        </label>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">REGISTRO</a></li>
+                <li><a href="inicio_de_sesion.html">INICIAR SESION</a></li>
+                <li><a href="registro.html">RECETAS</a></li>
+                <li><a href="CalculadoradeVolumen.html">VOLUMEN</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="formulario">
+        <h1>REGISTRO</h1>
+        <form action="">
+            <input type="text" name="" placeholder="NOMBRE" id="nombre"></br>
+            <input type="text" name="" placeholder="APELLIDO" id="apellido"></br>
+            <label for="">Nombre de Usuario</label></br>
+            <input type="text" placeholder="Nombre de Usuario" id="Usuario"></br>
+            <label for="">Gmail o correo electronico</label></br>
+            <input type="email" placeholder="correo elctronico" id="correo"></br>
+            <label for="">contraseña</label></br>
+            <input type="password" placeholder="contraseña" id="pwd"></br>
+            <button onclick="registro()" >Registrarse</button>
+    
+            <p id="res1" class="respuesta"></p>
+            <script src="assets/JS/Registro.js"></script>
+        </form>
+    </section>
+    <footer>
+        <div class="grid-container3">
+            <div class="subsubitem1">
+                <img src="assets/imagenes/Logo_footer.png" alt="">
+                <p>Los datos registrados en esta plataforma
+                    se encuentran protegidos por la Ley 19.628
+                    Sobre Protección de la Vida Privada.</p>
+            </div>
+            <div class="subsubitem2">
+                <h3>Link de Interes</h3>
+                    <p><a href="https://registratumascota.cl/resources/public/pdf/politicas_privacidad.pdf">Politicas de privacidad</a></p>
+                    <p><a href="https://www.subdere.gov.cl/">www.subdere.gov.cl</a></p>
+                    <p><a href="https://www.bcn.cl/leychile/navegar?idNorma=1106037">Ley 21.020</a></p>
+            </div>
+            <div class="subsubitem3">
+                <p>Sigue el Programa de Tenencia Responsable de Animales de Compañía (PTRAC)</p>
+                <div class="iconos" type="button">
+                    <a href="https://www.facebook.com/MascotaGob" class="fa fa-facebook" ></a>
+                    <a href="https://twitter.com/mascotagob" class="fa fa-twitter"></a>
+                    <a href="https://www.instagram.com/mascotagob/" class="fa fa-instagram"></a>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
